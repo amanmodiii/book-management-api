@@ -24,7 +24,7 @@ This API allows you to create, read, update, delete, and bulk import books.
 
 1. **Clone the repository**
    ```sh
-   git clone <repo-url>
+   git clone https://github.com/amanmodiii/book-management-api
    cd book-management-api
    ```
 
@@ -37,14 +37,16 @@ This API allows you to create, read, update, delete, and bulk import books.
 
    Create a `.env` file in the root directory and add your PostgreSQL connection string:
    ```
+   PORT=3000
    DATABASE_URL=postgresql://user:password@localhost:5432/yourdb
    ```
+   Use your actual PostgreSQL username, password, and database name.
 
 4. **Set up the database**
 
    Run Prisma migrations to create the database tables:
    ```sh
-   npx prisma migrate dev --name init
+   npx prisma migrate dev
    ```
 
 5. **Generate Prisma client**
