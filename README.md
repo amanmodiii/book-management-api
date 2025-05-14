@@ -11,7 +11,7 @@ This API allows you to create, read, update, delete, and bulk import books.
 - **UUID** as book ID
 - **Timestamps** for creation and updates
 
-## Endpoints
+## Endpoints ([View postman collection](https://app.getpostman.com/join-team?invite_code=ff250381591a67c5974e5f12de271ca806fda850d9eac1be1c4e5faf2a5a27ce&target_code=0a12e799382ad21488ea007f2e722cfd) )
 
 - `GET    /books`           — List all books
 - `GET    /books/:id`       — Get a book by ID
